@@ -15,5 +15,5 @@ silver_df = (
    .dropna(subset=["customer_id"]) 
 
 ) 
-
+print("This is silver data frame")
 display(silver_df) 
